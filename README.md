@@ -1,6 +1,7 @@
 # Telegram Bot Starter
 
-A starter template for Telegram bots, with Vercel, Netlify, and [more support](https://nitro.unjs.io/).
+A starter template for Telegram bots on Serverless, with [Vercel](https://vercel.com), [Netlify](https://netlify.com), and [more](https://nitro.unjs.io/deploy) support.
+
 Built top of [Nitro](https://nitro.unjs.io/) and [Telegraf](https://telegraf.js.org).
 
 ## Local Development

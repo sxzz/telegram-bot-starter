@@ -1,0 +1,11 @@
+node_modules
+*.log*
+.nitro
+.cache
+.output
+.env
+dist
+
+# Local Netlify folder
+.netlify
+.vercel

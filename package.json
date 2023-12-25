@@ -10,13 +10,13 @@
   },
   "dependencies": {
     "nitropack": "latest",
-    "telegraf": "^4.15.0"
+    "telegraf": "^4.15.3"
   },
   "devDependencies": {
-    "@sxzz/eslint-config": "^3.7.4",
+    "@sxzz/eslint-config": "^3.7.6",
     "@sxzz/prettier-config": "^1.0.4",
-    "eslint": "^8.53.0",
-    "prettier": "^3.0.3"
+    "eslint": "^8.56.0",
+    "prettier": "^3.1.1"
   },
   "prettier": "@sxzz/prettier-config"
 }

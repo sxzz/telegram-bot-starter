@@ -16,7 +16,7 @@
     "@sxzz/eslint-config": "^3.7.6",
     "@sxzz/prettier-config": "^2.0.0",
     "eslint": "^8.56.0",
-    "prettier": "^3.1.1"
+    "prettier": "^3.2.2"
   },
   "prettier": "@sxzz/prettier-config"
 }

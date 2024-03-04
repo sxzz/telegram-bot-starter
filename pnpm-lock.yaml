@@ -14,8 +14,8 @@ dependencies:
 
 devDependencies:
   '@sxzz/eslint-config':
-    specifier: ^3.8.1
-    version: 3.8.1(@typescript-eslint/parser@7.0.2)(eslint@8.57.0)(typescript@5.2.2)
+    specifier: ^3.8.4
+    version: 3.8.4(@typescript-eslint/parser@7.0.2)(eslint@8.57.0)(typescript@5.2.2)
   '@sxzz/prettier-config':
     specifier: ^2.0.1
     version: 2.0.1
@@ -608,7 +608,7 @@ packages:
       estree-walker: 2.0.2
       glob: 8.1.0
       is-reference: 1.2.1
-      magic-string: 0.30.5
+      magic-string: 0.30.7
       rollup: 3.29.4
     dev: false
 
@@ -623,7 +623,7 @@ packages:
     dependencies:
       '@rollup/pluginutils': 5.0.5(rollup@3.29.4)
       estree-walker: 2.0.2
-      magic-string: 0.30.5
+      magic-string: 0.30.7
       rollup: 3.29.4
     dev: false
 
@@ -668,7 +668,7 @@ packages:
         optional: true
     dependencies:
       '@rollup/pluginutils': 5.0.5(rollup@3.29.4)
-      magic-string: 0.30.5
+      magic-string: 0.30.7
       rollup: 3.29.4
     dev: false
 
@@ -723,8 +723,8 @@ packages:
       rollup: 3.29.4
     dev: false
 
-  /@sxzz/eslint-config@3.8.1(@typescript-eslint/parser@7.0.2)(eslint@8.57.0)(typescript@5.2.2):
-    resolution: {integrity: sha512-vbAg48Iy8/RYFlRi993ZKGtjJgzUES+e65rL58LaKBnZNuZkySR2PLCZkeZeDpCF8AWcIvDVVtBEjJaG0lJkfQ==}
+  /@sxzz/eslint-config@3.8.4(@typescript-eslint/parser@7.0.2)(eslint@8.57.0)(typescript@5.2.2):
+    resolution: {integrity: sha512-HOFBdjaJxUoFeBb4cRA3kmgznsOb5OePaxxKByrPFZjPeE10Xxeq46hdqVyPOmu42SftaloL0kwam50RyETqZA==}
     engines: {node: ^18.18.0 || >=20.0.0}
     peerDependencies:
       eslint: ^8.56.0 || ^9.0.0
@@ -2884,7 +2884,6 @@ packages:
     engines: {node: '>=12'}
     dependencies:
       '@jridgewell/sourcemap-codec': 1.4.15
-    dev: true
 
   /make-dir@3.1.0:
     resolution: {integrity: sha512-g3FeP20LNwhALb/6Cz6Dd4F2ngze0jz7tbzrD2wAV+o9FeNHe4rL+yK2md0J/fiSf1sa1ADhXqi5+oVwOM/eGw==}
@@ -4085,7 +4084,7 @@ packages:
     dependencies:
       acorn: 8.11.2
       estree-walker: 3.0.3
-      magic-string: 0.30.5
+      magic-string: 0.30.7
       unplugin: 1.5.0
     dev: false
 
@@ -4117,7 +4116,7 @@ packages:
       escape-string-regexp: 5.0.0
       fast-glob: 3.3.1
       local-pkg: 0.4.3
-      magic-string: 0.30.5
+      magic-string: 0.30.7
       mlly: 1.4.2
       pathe: 1.1.1
       pkg-types: 1.0.3

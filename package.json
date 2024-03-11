@@ -13,7 +13,7 @@
     "telegraf": "^4.16.3"
   },
   "devDependencies": {
-    "@sxzz/eslint-config": "^3.8.5",
+    "@sxzz/eslint-config": "^3.8.6",
     "@sxzz/prettier-config": "^2.0.1",
     "eslint": "^8.57.0",
     "prettier": "^3.2.5"

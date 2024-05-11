@@ -35,4 +35,4 @@ Thanks to the project [jsjoeio/telegram-bot-template](https://github.com/jsjoeio
 
 ## License
 
-[MIT](./LICENSE) License © 2023-PRESENT [三咲智子 Kevin Deng](https://github.com/sxzz)
+[MIT](./LICENSE) License © 2024 [三咲智子 Kevin Deng](https://github.com/sxzz)

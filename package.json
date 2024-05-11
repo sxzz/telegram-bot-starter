@@ -8,7 +8,8 @@
     "build": "nitropack build",
     "preview": "node .output/server/index.mjs",
     "lint": "eslint --cache .",
-    "format": "prettier --cache --write ."
+    "format": "prettier --cache --write .",
+    "typecheck": "nitropack prepare && tsc"
   },
   "dependencies": {
     "nitropack": "latest",
@@ -18,7 +19,8 @@
     "@sxzz/eslint-config": "^3.11.0",
     "@sxzz/prettier-config": "^2.0.2",
     "eslint": "^9.2.0",
-    "prettier": "^3.2.5"
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.5"
   },
   "prettier": "@sxzz/prettier-config"
 }

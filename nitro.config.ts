@@ -7,6 +7,7 @@ export default defineNitroConfig({
         noEmit: true,
         moduleDetection: 'force',
         isolatedModules: true,
+        skipLibCheck: true,
       },
     },
   },

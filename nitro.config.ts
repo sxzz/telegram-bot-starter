@@ -1,10 +1,12 @@
 export default defineNitroConfig({
   typescript: {
+    strict: true,
     tsConfig: {
       compilerOptions: {
-        strict: true,
+        module: 'preserve',
         noEmit: true,
-        moduleResolution: 'bundler',
+        moduleDetection: 'force',
+        isolatedModules: true,
       },
     },
   },

@@ -5,6 +5,7 @@ node_modules
 .output
 .env
 dist
+.eslintcache
 
 # Local Netlify folder
 .netlify

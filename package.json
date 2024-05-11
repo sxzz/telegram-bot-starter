@@ -6,7 +6,9 @@
     "prepare": "nitropack prepare",
     "dev": "nitropack dev",
     "build": "nitropack build",
-    "preview": "node .output/server/index.mjs"
+    "preview": "node .output/server/index.mjs",
+    "lint": "eslint --cache .",
+    "format": "prettier --cache --write ."
   },
   "dependencies": {
     "nitropack": "latest",

@@ -17,7 +17,7 @@ Built top of [Nitro](https://nitro.unjs.io/) and [Telegraf](https://telegraf.js.
 
 ## Deployment
 
-1. Deploy on [Vercel](https://vercel.com) or [Netlify](https://netlify.com), with `BOT_TOKEN` and `SECRET_HASH` environment variables.
+1. Deploy on [Vercel](https://vercel.com), [Netlify](https://netlify.com) or [others](https://nitro.unjs.io/deploy), with `BOT_TOKEN` and `SECRET_HASH` environment variables.
 2. Visit https://your-domain.com/telegram-hook?setWebhook=true
 3. Send `/start` to your bot.
 

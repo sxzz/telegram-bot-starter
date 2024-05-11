@@ -1,3 +1,4 @@
+import process from 'node:process'
 import { bot } from '../src'
 
 const SECRET_HASH = process.env.SECRET_HASH

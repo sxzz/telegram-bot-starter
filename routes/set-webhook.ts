@@ -5,7 +5,7 @@ const SECRET_HASH = process.env.SECRET_HASH!
 
 export default eventHandler(async (evt) => {
   const query = getQuery(evt)
-  if (query.secret_hash !== SECRET_HASH) {
+  if (!process.dev && query.secret_hash !== SECRET_HASH) {
     return 'Forbidden'
   }
 

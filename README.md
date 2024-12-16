@@ -12,13 +12,13 @@ Built top of [Nitro](https://nitro.unjs.io/) and [Telegraf](https://telegraf.js.
 4. Copy `.env.example` to `.env`, and fill in the `BOT_TOKEN` and `TOKEN` in `.env`.
 5. Run `pnpm dev` to start the development server.
 6. Expose your local server to the internet with [Local Port Forwarding of VSCode](https://code.visualstudio.com/docs/editor/port-forwarding) (**set Port Visibility to Public**) or [ngrok](https://ngrok.com/).
-7. Visit https://your-domain.com/telegram-hook?setWebhook=true
+7. Visit https://your-domain.com/set-webhook?token=TOKEN
 8. Send `/start` to your bot.
 
 ## Deployment
 
 1. Deploy on [Vercel](https://vercel.com), [Netlify](https://netlify.com) or [others](https://nitro.unjs.io/deploy), with `BOT_TOKEN` and `TOKEN` environment variables.
-2. Visit https://your-domain.com/telegram-hook?setWebhook=true
+2. Visit https://your-domain.com/set-webhook?token=TOKEN
 3. Send `/start` to your bot.
 
 ## Credits

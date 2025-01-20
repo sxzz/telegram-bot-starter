@@ -19,8 +19,8 @@ importers:
         specifier: ^4.6.0
         version: 4.6.0(@types/eslint@9.6.1)(@typescript-eslint/eslint-plugin@8.19.1(@typescript-eslint/parser@8.19.1(eslint@9.18.0(jiti@2.4.2))(typescript@5.7.3))(eslint@9.18.0(jiti@2.4.2))(typescript@5.7.3))(eslint@9.18.0(jiti@2.4.2))(typescript@5.7.3)
       '@sxzz/prettier-config':
-        specifier: ^2.0.2
-        version: 2.0.2
+        specifier: ^2.1.0
+        version: 2.1.0
       eslint:
         specifier: ^9.18.0
         version: 9.18.0(jiti@2.4.2)
@@ -812,8 +812,8 @@ packages:
     peerDependencies:
       eslint: ^9.5.0
 
-  '@sxzz/prettier-config@2.0.2':
-    resolution: {integrity: sha512-yBKxaIr6WqgHTaLgX0g6gxNuMllkwR1QGeXynfJGmyD+XrZqO96t9xT5Mfbr9H3+N56SXY9/yFvP/e8lcJI7KA==}
+  '@sxzz/prettier-config@2.1.0':
+    resolution: {integrity: sha512-7uw0uLrrxCq9KssVN1cQPgGYY++nb79Yl73ZVUlruBwFBWTyyEfx5FytIuz+vafiMZ04naeOLSvwrZa8BbjGbg==}
 
   '@telegraf/types@7.1.0':
     resolution: {integrity: sha512-kGevOIbpMcIlCDeorKGpwZmdH7kHbqlk/Yj6dEpJMKEQw5lk0KVQY0OLXaCswy8GqlIVLd5625OB+rAntP9xVw==}
@@ -3761,7 +3761,7 @@ snapshots:
       - supports-color
       - typescript
 
-  '@sxzz/prettier-config@2.0.2': {}
+  '@sxzz/prettier-config@2.1.0': {}
 
   '@telegraf/types@7.1.0': {}
 

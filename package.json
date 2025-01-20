@@ -17,7 +17,7 @@
   },
   "devDependencies": {
     "@sxzz/eslint-config": "^4.6.0",
-    "@sxzz/prettier-config": "^2.0.2",
+    "@sxzz/prettier-config": "^2.1.0",
     "eslint": "^9.18.0",
     "prettier": "^3.4.2",
     "typescript": "^5.7.3"

@@ -6,8 +6,8 @@ const TOKEN = process.env.TOKEN!
 export default eventHandler(async (evt) => {
   const host = getRequestHeader(evt, 'x-forwarded-host') || getRequestHost(evt)
   const webhookUrl = `https://${host}/telegram-hook?token=${TOKEN}`
-  const isSet = await bot.telegram.setWebhook(webhookUrl)
-  const info = await bot.telegram.getWebhookInfo()
+  const isSet = await bot.api.setWebhook(webhookUrl)
+  const info = await bot.api.getWebhookInfo()
   return `Set webhook to ${webhookUrl.replaceAll(
     TOKEN,
     '*',

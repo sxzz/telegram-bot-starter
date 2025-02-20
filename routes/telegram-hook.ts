@@ -1,7 +1,7 @@
-import { bot } from '../src'
+import { webhookCallback } from 'grammy'
+import { bot } from '~/src'
 
-export default eventHandler(async (evt) => {
-  const body = await readBody(evt)
-  await bot.handleUpdate(body)
-  return 'OK'
+export default defineEventHandler((event) => {
+  const handle = webhookCallback(bot, 'http')
+  return handle(event.node.req, event.node.res)
 })

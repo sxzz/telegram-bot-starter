@@ -2,7 +2,7 @@
 
 A starter template for Telegram bots on Serverless, with [Vercel](https://vercel.com), [Netlify](https://netlify.com), and [more](https://nitro.unjs.io/deploy) support.
 
-Built top of [Nitro](https://nitro.unjs.io/) and [Telegraf](https://telegraf.js.org).
+Built top of [Nitro](https://nitro.unjs.io/) and [grammY](https://grammy.dev/).
 
 ## Local Development
 

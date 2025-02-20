@@ -1,7 +1,6 @@
-import { Telegraf } from 'telegraf'
+import { Bot } from 'grammy'
 import { BOT_TOKEN } from './env'
 
-export const bot = new Telegraf(BOT_TOKEN)
+export const bot = new Bot(BOT_TOKEN)
 
-bot.start((ctx) => ctx.reply('Welcome!'))
-bot.help((ctx) => ctx.reply('Help text...'))
+bot.command('start', (ctx) => ctx.reply('Welcome!'))

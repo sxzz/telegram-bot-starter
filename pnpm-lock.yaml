@@ -16,8 +16,8 @@ importers:
         version: 2.11.6(typescript@5.8.2)
     devDependencies:
       '@sxzz/eslint-config':
-        specifier: ^6.0.1
-        version: 6.0.1(@types/eslint@9.6.1)(@typescript-eslint/eslint-plugin@8.26.0(@typescript-eslint/parser@8.26.0(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2))(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2))(@unocss/eslint-plugin@65.4.0(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2))(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2)
+        specifier: ^6.0.2
+        version: 6.0.2(@types/eslint@9.6.1)(@typescript-eslint/eslint-plugin@8.26.0(@typescript-eslint/parser@8.26.0(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2))(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2))(@unocss/eslint-plugin@65.4.0(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2))(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2)
       '@sxzz/prettier-config':
         specifier: ^2.2.1
         version: 2.2.1
@@ -953,8 +953,8 @@ packages:
   '@speed-highlight/core@1.2.7':
     resolution: {integrity: sha512-0dxmVj4gxg3Jg879kvFS/msl4s9F3T9UXC1InxgOf7t5NvcPD97u/WTA5vL/IxWHMn7qSxBozqrnnE2wvl1m8g==}
 
-  '@sxzz/eslint-config@6.0.1':
-    resolution: {integrity: sha512-hSWuB5mAubwCu9gUSxId3OZaTLXsNcpwDM4dVcjIUAVwqw0Oak8Rdwvc9VLa300amHBtQ1mIBu6IGaOdLcOkhw==}
+  '@sxzz/eslint-config@6.0.2':
+    resolution: {integrity: sha512-4EXRuh6freRzmE23TzL1gZBxeY4diS+cxLaDq/XQbe2YGEOU8oaCGkbJpPpsfH+kvTz6VaBn7U9m2tPefxpHWQ==}
     engines: {node: ^18.18.0 || >=20.0.0}
     peerDependencies:
       '@unocss/eslint-plugin': '>=65.0.0'
@@ -3781,7 +3781,7 @@ snapshots:
 
   '@speed-highlight/core@1.2.7': {}
 
-  '@sxzz/eslint-config@6.0.1(@types/eslint@9.6.1)(@typescript-eslint/eslint-plugin@8.26.0(@typescript-eslint/parser@8.26.0(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2))(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2))(@unocss/eslint-plugin@65.4.0(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2))(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2)':
+  '@sxzz/eslint-config@6.0.2(@types/eslint@9.6.1)(@typescript-eslint/eslint-plugin@8.26.0(@typescript-eslint/parser@8.26.0(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2))(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2))(@unocss/eslint-plugin@65.4.0(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2))(eslint@9.22.0(jiti@2.4.2))(typescript@5.8.2)':
     dependencies:
       '@eslint-community/eslint-plugin-eslint-comments': 4.4.1(eslint@9.22.0(jiti@2.4.2))
       '@eslint/js': 9.22.0

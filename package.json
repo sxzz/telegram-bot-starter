@@ -12,11 +12,11 @@
     "typecheck": "nitropack prepare && tsc"
   },
   "dependencies": {
-    "grammy": "^1.36.0",
+    "grammy": "^1.36.1",
     "nitropack": "^2.11.9"
   },
   "devDependencies": {
-    "@sxzz/eslint-config": "^6.1.1",
+    "@sxzz/eslint-config": "^6.1.2",
     "@sxzz/prettier-config": "^2.2.1",
     "eslint": "^9.25.0",
     "prettier": "^3.5.3",

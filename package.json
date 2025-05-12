@@ -16,7 +16,7 @@
     "nitropack": "^2.11.11"
   },
   "devDependencies": {
-    "@sxzz/eslint-config": "^6.2.0",
+    "@sxzz/eslint-config": "^7.0.1",
     "@sxzz/prettier-config": "^2.2.1",
     "eslint": "^9.26.0",
     "prettier": "^3.5.3",

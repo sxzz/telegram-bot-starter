@@ -12,7 +12,7 @@
     "typecheck": "nitropack prepare && tsc"
   },
   "dependencies": {
-    "grammy": "^1.36.1",
+    "grammy": "^1.36.3",
     "nitropack": "^2.11.12"
   },
   "devDependencies": {

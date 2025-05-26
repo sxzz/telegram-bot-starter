@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       grammy:
-        specifier: ^1.36.1
-        version: 1.36.1
+        specifier: ^1.36.3
+        version: 1.36.3
       nitropack:
         specifier: ^2.11.12
         version: 2.11.12(@netlify/blobs@8.2.0)
@@ -2308,8 +2308,8 @@ packages:
   graceful-fs@4.2.11:
     resolution: {integrity: sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==}
 
-  grammy@1.36.1:
-    resolution: {integrity: sha512-NZxRWwdUPuVfjBVuycxgVx9TlGd0WYC1IRb5+/yrWeBpWkOVcEcbt3fQcn1oUiT8dcUDj9jqPIdnRltrYkXBew==}
+  grammy@1.36.3:
+    resolution: {integrity: sha512-OmoYn0WTETbMR7FbEy6QWx0Dvm3Md1O84UOgZLmj19mYlKbhefu2fSHDjoflxDNu8QgIrseQRsFSk4zRRcvJOA==}
     engines: {node: ^12.20.0 || >=14.13.1}
 
   graphemer@1.4.0:
@@ -6257,7 +6257,7 @@ snapshots:
 
   graceful-fs@4.2.11: {}
 
-  grammy@1.36.1:
+  grammy@1.36.3:
     dependencies:
       '@grammyjs/types': 3.20.0
       abort-controller: 3.0.0

@@ -13,13 +13,13 @@
   },
   "dependencies": {
     "grammy": "^1.36.3",
-    "nitropack": "^2.11.12"
+    "nitropack": "^2.11.13"
   },
   "devDependencies": {
     "@sxzz/eslint-config": "^7.0.4",
-    "@sxzz/prettier-config": "^2.2.1",
-    "eslint": "^9.29.0",
-    "prettier": "^3.6.0",
+    "@sxzz/prettier-config": "^2.2.3",
+    "eslint": "^9.30.0",
+    "prettier": "^3.6.2",
     "typescript": "^5.8.3"
   },
   "prettier": "@sxzz/prettier-config"

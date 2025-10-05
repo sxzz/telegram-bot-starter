@@ -1,6 +1,7 @@
 {
   "name": "telegram-bot-starter",
   "private": true,
+  "packageManager": "pnpm@10.18.0",
   "type": "module",
   "scripts": {
     "prepare": "nitropack prepare",

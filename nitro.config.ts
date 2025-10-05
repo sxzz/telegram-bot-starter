@@ -4,12 +4,11 @@ export default defineNitroConfig({
     tsConfig: {
       compilerOptions: {
         module: 'preserve',
-        noEmit: true,
         moduleDetection: 'force',
         isolatedModules: true,
-        skipLibCheck: true,
+        types: ['node'],
       },
     },
   },
-  compatibilityDate: '2024-11-22',
+  compatibilityDate: 'latest',
 })

@@ -2,7 +2,7 @@
   "name": "telegram-bot-starter",
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@10.26.2",
+  "packageManager": "pnpm@10.27.0",
   "scripts": {
     "prepare": "nitropack prepare",
     "dev": "nitropack dev",
@@ -13,7 +13,7 @@
     "typecheck": "nitropack prepare && tsc"
   },
   "dependencies": {
-    "grammy": "^1.38.4",
+    "grammy": "^1.39.2",
     "nitropack": "^2.12.9"
   },
   "devDependencies": {

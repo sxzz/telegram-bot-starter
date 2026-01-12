@@ -2,7 +2,7 @@
   "name": "telegram-bot-starter",
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@10.27.0",
+  "packageManager": "pnpm@10.28.0",
   "scripts": {
     "prepare": "nitropack prepare",
     "dev": "nitropack dev",
@@ -14,12 +14,12 @@
   },
   "dependencies": {
     "grammy": "^1.39.2",
-    "nitropack": "^2.12.9"
+    "nitropack": "^2.13.0"
   },
   "devDependencies": {
     "@sxzz/eslint-config": "^7.4.4",
     "@sxzz/prettier-config": "^2.2.6",
-    "@types/node": "^25.0.3",
+    "@types/node": "^25.0.6",
     "eslint": "^9.39.2",
     "prettier": "^3.7.4",
     "typescript": "^5.9.3"

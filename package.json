@@ -20,7 +20,7 @@
     "@sxzz/eslint-config": "^7.8.3",
     "@sxzz/prettier-config": "^2.3.1",
     "@types/node": "^25.3.5",
-    "eslint": "^9.39.4",
+    "eslint": "^10.0.3",
     "prettier": "^3.8.1",
     "typescript": "^5.9.3"
   },

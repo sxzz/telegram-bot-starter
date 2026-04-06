@@ -13,14 +13,14 @@
     "typecheck": "nitropack prepare && tsc"
   },
   "dependencies": {
-    "grammy": "^1.41.1",
-    "nitropack": "^2.13.2"
+    "grammy": "^1.42.0",
+    "nitropack": "^2.13.3"
   },
   "devDependencies": {
     "@sxzz/eslint-config": "^7.8.4",
     "@sxzz/prettier-config": "^2.3.1",
-    "@types/node": "^25.5.0",
-    "eslint": "^10.1.0",
+    "@types/node": "^25.5.2",
+    "eslint": "^10.2.0",
     "prettier": "^3.8.1",
     "typescript": "^6.0.2"
   },
